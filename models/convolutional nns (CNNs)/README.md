@@ -6,7 +6,7 @@
 
 &nbsp;&nbsp;&nbsp;This is a fancy mathematical word for what is essentially a moving window or filter across the image being studied. This moving window applies to a certain neighborhood of nodes as shown below (imagine that cells are the pixels of image).
 
-![](/res/convolutional-nns-(CNNs)/moving_filter.jpg)
+![](/res/convolutional-nns-(CNNs)/convolution_schematic.gif)
 
 
 &nbsp;&nbsp;&nbsp;Only two outputs have been shown in the diagram above, where each output node is a map from a 2 x 2 input square. Let's say that the weight of the mapping of each input square in our case is 0.5 across all four inputs. So the output can be calculated as:
