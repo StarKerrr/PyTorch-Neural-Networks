@@ -8,12 +8,6 @@
 
 ![](/res/convolutional-nns-(CNNs)/convolution_schematic.gif)
 
-
-&nbsp;&nbsp;&nbsp;Only two outputs have been shown in the diagram above, where each output node is a map from a 2 x 2 input square. Let's say that the weight of the mapping of each input square in our case is 0.5 across all four inputs. So the output can be calculated as:
-
-![](/res/convolutional-nns-(CNNs)/calculate_weights.jpg)
-
-
 &nbsp;&nbsp;&nbsp;So, it is the main approach to convolve a given dataset. This systematic application of the same filter across an image is a powerful idea. If the filter is designed to detect a specific type of feature in the input, then the application of that filter systematically across the entire input image allows the filter an opportunity to discover that feature anywhere in the image.
 
 &nbsp;&nbsp;&nbsp;There are a few things in this convolutional step which improve training by reducing parameters/weights:
