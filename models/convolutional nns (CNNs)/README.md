@@ -1,5 +1,5 @@
 # What is Convolutional Neural Networks (CNN) ?
-### What is it and what it is used for
+### What is it and what is it used for
 &nbsp;&nbsp;&nbsp;The convolutional neural network, or CNN for short, is a specialized type of neural network model designed for working with two-dimensional image data, although they can be used with one-dimensional and three-dimensional data.
 
 &nbsp;&nbsp;&nbsp;Central to the convolutional neural network is the convolutional layer that gives the network its name. So, what does it mean and how does it work in networks of this type. This layer performs an operation called a “convolution“, i.e. reducing the size of something, making dimension of data smaller. In the context of a convolutional neural network, a convolution is a linear operation that involves the multiplication of a set of weights with the input, much like a traditional neural network. Given that the technique was designed for two-dimensional input, the multiplication is performed between an array of input data and a two-dimensional array of weights, called a filter or a kernel. The filter is smaller than the input data and the type of multiplication applied between a filter-sized patch of the input and the filter is a dot product.
